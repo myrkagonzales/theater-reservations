@@ -24,6 +24,13 @@ public class TheaterReservations {
         // store movie date as text
         String movieDateInput = scanner.nextLine();
 
+        // ask for ticket quantity
+        System.out.println("How many tickets would you like? ");
+
+        // convert input to integer
+        int ticketCount = Integer.parseInt(scanner.nextLine());
+
+
 
 
 
