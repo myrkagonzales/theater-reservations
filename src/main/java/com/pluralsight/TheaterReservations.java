@@ -37,6 +37,10 @@ public class TheaterReservations {
         //store lastName
         String lastName = guestInfo[1];
 
+        // format expected from user
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
+
+
 
 
 
