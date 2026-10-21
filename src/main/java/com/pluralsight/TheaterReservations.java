@@ -43,6 +43,16 @@ public class TheaterReservations {
         // concert string date into localdate
         LocalDate reservationDate = LocalDate.parse(movieDateInput, formatter);
 
+        // determine whether to use ticket or tickets
+        String ticketLabel;
+        if (ticketCount == 1) {
+            ticketLabel = "ticket";
+        }
+        else {
+            ticketLabel = "tickets";
+        }
+
+
 
 
 
