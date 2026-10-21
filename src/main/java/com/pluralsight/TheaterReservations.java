@@ -52,6 +52,9 @@ public class TheaterReservations {
             ticketLabel = "tickets";
         }
 
+        System.out.println(ticketCount + " " + ticketLabel + " reserved for Frankenstein on " + reservationDate + " under " + lastName + ", " + firstName);
+
+
 
 
 
