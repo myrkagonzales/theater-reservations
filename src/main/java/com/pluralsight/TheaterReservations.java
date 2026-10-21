@@ -12,6 +12,13 @@ public class TheaterReservations {
         // created scanner for input
         Scanner scanner = new Scanner(System.in);
 
+        // ask for customers name
+        System.out.print("Who is watching Frankenstein? ");
+
+        // Save name
+        String movieFan = scanner.nextLine();
+
+
 
     }
 }
