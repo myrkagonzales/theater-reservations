@@ -40,6 +40,10 @@ public class TheaterReservations {
         // format expected from user
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
 
+        // concert string date into localdate
+        LocalDate reservationDate = LocalDate.parse(movieDateInput, formatter);
+
+
 
 
 
