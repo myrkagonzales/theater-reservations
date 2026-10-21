@@ -30,6 +30,14 @@ public class TheaterReservations {
         // convert input to integer
         int ticketCount = Integer.parseInt(scanner.nextLine());
 
+        //split name wherever a space is found
+        String[] guestInfo = movieFan.split(" ");
+        // store first name
+        String firstName = guestInfo[0];
+        //store lastName
+        String lastName = guestInfo[1];
+
+
 
 
 
