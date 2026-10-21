@@ -18,6 +18,14 @@ public class TheaterReservations {
         // Save name
         String movieFan = scanner.nextLine();
 
+        // ask for reservation date
+        System.out.println("Enter your movie date (MM/dd/yyyy): ");
+
+        // store movie date as text
+        String movieDateInput = scanner.nextLine();
+
+
+
 
 
     }
